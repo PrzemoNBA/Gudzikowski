@@ -1,0 +1,36 @@
+$ git diff "wersjaA" "wersjaB"
+diff --git a/Punkt9.jpg b/Punkt9.jpg
+new file mode 100644
+index 0000000..954be1c
+Binary files /dev/null and b/Punkt9.jpg differ
+diff --git a/Punkt9.txt b/Punkt9.txt
+new file mode 100644
+index 0000000..726caed
+--- /dev/null
++++ b/Punkt9.txt
+@@ -0,0 +1 @@
++13.46
+\ No newline at end of file
+diff --git a/info.txt b/info.txt
+index 9e46591..ac5be10 100644
+--- a/info.txt
++++ b/info.txt
+@@ -4,4 +4,7 @@ git init
+ touch "info.txt"
+ git status
+ git add .
+-git commit -m "Rozpoczęcie projektu"
+\ No newline at end of file
++git commit -m "Rozpoczęcie projektu"
++
++: Punkt 7
++13:40
+\ No newline at end of file
+diff --git a/wersjaB.txt b/wersjaB.txt
+new file mode 100644
+index 0000000..d88ac80
+--- /dev/null
++++ b/wersjaB.txt
+@@ -0,0 +1 @@
++Wersja pierwsza
+\ No newline at end of file
